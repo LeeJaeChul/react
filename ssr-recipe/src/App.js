@@ -9,8 +9,8 @@ const App = () => {
     <div>
       <Menu />
       <hr />
-      <Route path="/red" components={RedPage} />
-      <Route path="/blue" components={BluePage} />
+      <Route path="/red" component={RedPage} />
+      <Route path="/blue" component={BluePage} />
     </div>
   );
 }
